@@ -7,9 +7,11 @@ import com.mauriciotogneri.dependencyinjection.services.DefaultUserDatabase;
 
 public class DefaultServiceLocator implements ServiceLocator
 {
+    private final Context context;
+
     public DefaultServiceLocator(Context context)
     {
-        System.out.println();
+        this.context = context;
     }
 
     @Override

@@ -9,7 +9,6 @@ public class DefaultServiceLocator implements ServiceLocator
 {
     public DefaultServiceLocator(Context context)
     {
-        System.out.println();
     }
 
     @Override
